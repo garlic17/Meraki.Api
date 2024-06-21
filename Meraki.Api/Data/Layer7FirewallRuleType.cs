@@ -37,6 +37,12 @@ public enum Layer7FirewallRuleType
 	IpRange,
 
 	/// <summary>
+	/// Enum AllowedCountries for "allowedCountries"
+	/// </summary>
+	[EnumMember(Value = "allowedCountries")]
+	AllowedCountries,
+
+	/// <summary>
 	/// Enum BlockedCountries for "blockedCountries"
 	/// </summary>
 	[EnumMember(Value = "blockedCountries")]
